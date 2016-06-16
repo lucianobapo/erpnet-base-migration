@@ -1,0 +1,27 @@
+{
+    "name": "ilhanet/erpnet-base-migration",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Luciano Porto",
+            "email": "luciano.bapo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/database": "^5.2"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ErpNET\\BaseMigration\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ErpNET\\BaseMigrationTests\\": "tests/"
+        }
+    }
+}
